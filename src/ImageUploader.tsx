@@ -11,7 +11,7 @@ const ImageUploader: React.FC = () => {
   const [detectedType, setDetectedType] = useState<string>('');
   const [targetFormat, setTargetFormat] = useState<string>('jpeg');
   const [convertedBlobUrl, setConvertedBlobUrl] = useState<string>('');
-
+  
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log("e : ", e);
     console.log("e.target : ", e.target);
